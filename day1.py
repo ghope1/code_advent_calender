@@ -14,6 +14,6 @@ for calories in calorie_list:
     else:
         runningTotal += int(calories)
 
-print("Da hungriest bois are gobblin", top_3)
+print("The 3 hungriest reindeer ate", top_3)
 print("for a total of ", sum(top_3), "calories gobbled.")
 
