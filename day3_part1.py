@@ -12,7 +12,7 @@ def checkRucksack(rucksack):
     for firstItem in rucksack[:int(len(rucksack)/2)]: #checks first half
         for secondItem in rucksack[int(len(rucksack)/2):]: #checks second half
             if firstItem == secondItem:
-                if(ord(firstItem) >= 65 and ord(firstItem) <= 90):
+                if(ord(firstItem) >= 65 and ord(firstItem) <= 90): #if uppercase
                     return ord(firstItem)  - ord('A') + 27 #calcs item priority               
                 else:
                     return ord(firstItem) - ord('a') + 1 #calcs item priority
