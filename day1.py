@@ -1,5 +1,6 @@
 import sys
-
+# Part 1 and 2 of Code Advent Calendar Day 1: https://adventofcode.com/2022/day/1
+#                                             https://adventofcode.com/2022/day/1#part2
 print('Input Reindeer Calories List (ctrl+D to end):')
 calorie_input = sys.stdin.read()
 calorie_list = calorie_input.split('\n')
